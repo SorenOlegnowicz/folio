@@ -2,3 +2,7 @@
 .direnv
 .idea/
 *.sqlite3
+*.pyc
+__pycache__
+porto/__pycache__
+.DS_Store

@@ -1580,7 +1580,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: rgba(119, 40, 40, 0.75);
+		color: #222;
 		line-height: 1.5em;
 	}
 
@@ -1611,7 +1611,7 @@
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		header > p {
@@ -1643,7 +1643,7 @@
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #222;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1941,7 +1941,7 @@
 	}
 
 		.item header {
-			background: #fff;
+			background: #f7fbfa;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
@@ -2084,7 +2084,7 @@
 		}
 
 			#nav ul li a.active span:before {
-				color: #e27689;
+				color: #FFF;
 			}
 
 /* Footer */
@@ -2134,7 +2134,7 @@
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgba(119, 40, 40, 0.75);
+				color: rgba(34, 2, 0, 1);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2167,15 +2167,15 @@
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
-			}
-
-			#main > section.three {
 				background-color: #ecf1f1;
 			}
 
+			#main > section.three {
+				background-color: #f5fafa;
+			}
+
 			#main > section.five {
-				background-color: #E1E8E7;
+				background-color: #f6f9f6; #E1E8E7;
 			}
 
 			#main > section.four {
@@ -2223,7 +2223,7 @@
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 10em 0;
 			}
 
 	}
@@ -2573,3 +2573,124 @@
    border-top-color: #1b435e;
    background: #1b435e;
    }
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.mymybutton {
+	-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		background: none;
+		border: solid 2px;
+		color: #222 !important;
+		border-color: #f4f4f4 !important;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.7em;
+		font-weight: 900;
+		letter-spacing: 2px;
+		min-width: 7em;
+		padding: 0 0.75em;
+		line-height: 3.35em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #f5f5f5;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		.mymybutton:hover {
+			background: transparent;
+			border-color: inherit;
+			color: #FFF !important;
+		}
+
+		input[type="button"].special,
+		input[type="submit"].special,
+		input[type="reset"].special,
+		.mymybutton.special {
+			background: #83d3c9;
+			border-color: #83d3c9;
+			color: #fff !important;
+		}
+
+			input[type="button"].special:hover,
+			input[type="submit"].special:hover,
+			input[type="reset"].special:hover,
+			.mymybutton.special:hover {
+				background: #96dad1 !important;
+				border-color: #96dad1 !important;
+			}
+
+		input[type="button"].fit,
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		.mymybutton.fit {
+			width: 100%;
+		}
+
+		input[type="button"].small,
+		input[type="submit"].small,
+		input[type="reset"].small,
+		.mymybutton.small {
+			font-size: 0.7em;
+			min-width: 14em;
+			padding: 0.5em 0;
+		}
+
+.johns {
+	color: #0C3E23 !important;
+	border-bottom: none !important;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.skilly	ul {
+			display: inline-block;
+		}
+
+		.skilly li {
+			padding: 27px;
+		}
+
+.billy {
+	text-align: center;
+	margin-left: 37px;
+}
+
+
+.eycon li {
+	font-size: 1.4em !important;
+}
+
+
+.fader {
+	display: none;
+}
+
+.fader:hover {
+	display: inline;
+}
+
+.pdframe {
+	text-align: center;
+	background-color: #f8fafa;
+}
+
+.headers {
+	text-align: left;
+	padding-left: 21px !important;
+}
+
+.reach {
+
+}

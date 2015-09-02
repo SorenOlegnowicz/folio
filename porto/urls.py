@@ -19,5 +19,6 @@ from website import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', views.homepage, name='homepage')
+    url(r'^$', views.homepage, name='homepage'),
+    url(r'^resume.pdf', views.pdf_views, name='pdf')
 ]
