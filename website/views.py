@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render, render_to_response
 from django.template import RequestContext
-from reportlab.pdfgen import canvas
 
 from .models import Contact
 
