@@ -6,3 +6,4 @@
 __pycache__
 porto/__pycache__
 .DS_Store
+.twilio_script.sh
